@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT customerList (company|person)*>
+<!ELEMENT company (company_info, package_offer+)>
+<!ELEMENT person (person_info, package_offer+)>
+<!ATTLIST company CompCodeNo ID #REQUIRED>
+<!ATTLIST person PersonCodeNo ID #REQUIRED>
+<!ELEMENT company_info (name, VAT_number, tax_office, address)>
+<!ELEMENT person_info (first_name, middle_name?, surname, VAT_number, tax_office, address)>
+<!ELEMENT package_offer (giving+, tel_number*, startPrice, finalPrice?, in_discount?, contract_start_date?, contract_end_date?)>
+<!ATTLIST package_offer contract_number ID #REQUIRED>
+<!ATTLIST package_offer package_category (B_START|B_LITE|P_LITE|P_START|B_all|P_all|B_smart|P_smart) #REQUIRED>
+<!ELEMENT giving (#PCDATA)>
+<!ELEMENT tel_number (#PCDATA)>
+<!ELEMENT startPrice (#PCDATA)>
+<!ELEMENT finalPrice (#PCDATA)>
+<!ELEMENT in_discount (discount_rate, amount_after_discount)>
+<!ELEMENT discount_rate (#PCDATA)>
+<!ELEMENT amount_after_discount (#PCDATA)>
+<!ELEMENT contract_start_date (#PCDATA)>
+<!ELEMENT contract_end_date (#PCDATA)>
+<!ATTLIST startPrice unitS CDATA "euro">
+<!ATTLIST startPrice forperiodS CDATA "month">
+<!ATTLIST finalPrice unitF CDATA "euro">
+<!ATTLIST finalPrice forperiodF CDATA "month">
+<!ATTLIST amount_after_discount unit CDATA "euro">
+<!ATTLIST amount_after_discount forperiod CDATA "month">
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT VAT_number (#PCDATA)>
+<!ELEMENT tax_office (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT first_name (#PCDATA)>
+<!ELEMENT middle_name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>

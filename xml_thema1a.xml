@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE customerList SYSTEM "dtd_thema1.dtd">
+<customerList>
+
+    <company CompCodeNo="c12345">
+        <company_info>
+            <name> CompanyX </name>
+            <VAT_number> 123456789 </VAT_number>
+            <tax_office> office1 </tax_office>
+            <address> lampraki 25 </address>
+        </company_info>
+
+        <package_offer contract_number="no5" package_category="B_START">
+            <giving> SMS </giving>
+            <giving> Internet </giving>
+            <tel_number> 2101234567 </tel_number>
+            <startPrice> 300 </startPrice>
+            <finalPrice> 270 </finalPrice>
+            <in_discount>
+                <discount_rate> 10% </discount_rate>
+                <amount_after_discount> 270 </amount_after_discount>
+            </in_discount>
+            <contract_start_date> 06/11 </contract_start_date>
+            <contract_end_date> 12/12 </contract_end_date>
+        </package_offer>
+    </company>
+
+</customerList>

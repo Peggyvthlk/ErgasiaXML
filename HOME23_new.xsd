@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.w3schools.com"
+xmlns="http://www.w3schools.com"
+elementFormDefault="qualified">
+
+  <xs:element name="Epipla_Diakosmisi_AE">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="stores_list">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="store" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:attribute name="strid" type="xs:ID" use="required"/>
+                  <xs:attribute name="name" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="product_categories">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="product_type" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:simpleContent>
+                    <xs:extension base="xs:string">
+                      <xs:attribute name="prod_class_id" type="xs:ID" use="required"/>
+                    </xs:extension>
+                  </xs:simpleContent>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="room_classification">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="room_class" maxOccurs="unbounded" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="value" type="xs:string" use="required"/>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="special_classification">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="special_classes">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="campaign" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:attribute name="spclass_id" type="xs:ID" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="outlet" minOccurs="0" maxOccurs="1">
+                      <xs:complexType>
+                        <xs:attribute name="spclass_id" type="xs:ID" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="contact_details">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Headquarters">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="address" type="xs:string"/>
+                    <xs:element name="tel" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                    <xs:element name="email" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                  <xs:attribute name="manage_id" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="stores">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="shop_store" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="address" type="xs:anyType"/>
+                          <xs:element name="tel" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                          <xs:element name="email" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                        </xs:sequence>
+                        <xs:attribute name="st_id" type="xs:ID" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="store_hours">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Day" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Timing" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="day_id" type="xs:ID" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Services">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="shipping_Charges">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="charges_Ath_Th">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="shipValue" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="ship_weight_category" type="xs:string" use="required"/>
+                                  <xs:attribute name="shpunit" type="xs:string" default="euro"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="shipping_until" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="charges_other_places">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="shipValue" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="ship_weight_category" type="xs:string" use="required"/>
+                                  <xs:attribute name="shpunit" type="xs:string" default="euro"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="shipping_until" type="xs:string" use="required"/>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Assembly_Charges">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="assValue" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="assunit" type="xs:string" default="euro"/>
+                            <xs:attribute name="ass_category" type="xs:string" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Interior_Design_Charges" minOccurs="0">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="DesValue" minOccurs="0" maxOccurs="unbounded">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="dessunit" type="xs:string" default="euro"/>
+                            <xs:attribute name="Des_category" type="xs:string" use="required"/>
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="forevery" type="xs:string" default="room"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="product_list">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="product" minOccurs="0" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="store_availability">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="quantity" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:attribute name="store_id" type="xs:IDREFS" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="product_descr" type="xs:string"/>
+                    <xs:element name="product_characteristics">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="manufacturer_country" minOccurs="0" maxOccurs="1" type="xs:string"/>
+                          <xs:element name="weight" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="unit_weight" type="xs:string" default="kg"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="material" minOccurs="0" maxOccurs="unbounded" type="xs:string"/>
+                          <xs:element name="included" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:attribute name="quantity" type="xs:string" use="optional"/>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="not_included" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:attribute name="no_incl" type="xs:string" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="color" minOccurs="0" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="also_available_color" minOccurs="1" maxOccurs="unbounded" type="xs:string"/>
+                              </xs:sequence>
+                              <xs:attribute name="main_color" type="xs:string" use="required"/>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="price" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="prod_id" type="xs:ID" use="required"/>
+                  <xs:attribute name="prod_cat_id" type="xs:IDREF" use="required"/>
+                  <xs:attribute name="store_id" type="xs:IDREFS" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  
+</xs:schema>

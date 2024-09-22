@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE customerList SYSTEM "dtd_thema1.dtd">
+<customerList>
+
+    <person PersonCodeNo="67890">
+        <person_info>
+            <first_name> Maria </first_name>
+            <surname> Papadopoulou </surname>
+            <tax_office> office2 </tax_office>
+            <address> lampraki 12 </address>
+        </person_info>
+
+        <package_offer contract_number="8">
+            <giving> Internet </giving>
+            <tel_number> 2109876543 </tel_number>
+            <startPrice> 520 </startPrice>
+            <finalPrice> 210 </finalPrice>
+            <contract_start_date> 06/11</contract_start_date>
+            <contract_end_date> 12/12 </contract_end_date>
+        </package_offer>
+    </person>
+
+</customerList>

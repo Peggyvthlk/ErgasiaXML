@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="present2.xsl"?>
+<!DOCTYPE Epipla_Diakosmisi_AE SYSTEM "HOME23_new.dtd">
+
+<Epipla_Diakosmisi_AE number_of_products="over of 2000" Year_opened="2004"> 
+    
+    <name> HOME23 </name>
+
+    <stores_list>
+        <store strid="s1" name="Αθήνα (Κολωνάκι)"></store>
+        <store strid="s2" name="Αθήνα (Αεροδρόμιο)"></store>
+        <store strid="s3" name="Θεσσαλονίκη"></store>
+        <store strid="s4" name="Ιωάννινα"></store>
+        <store strid="s5" name="Λάρισσα"></store>
+        <store strid="s6" name="Ξάνθη"></store>
+        <store strid="s7" name="Κέρκυρα"></store>
+        <store strid="s8" name="Καλαμάτα"></store>
+        <store strid="s9" name="Κρήτη"></store>
+    </stores_list>
+
+    <product_categories>
+        <product_type prod_class_id="k1"> Καναπέδες και πολυθρόνες </product_type>
+        <product_type prod_class_id="k2"> Έπιπλα οργάνωσης κι αποθήκευσης </product_type>
+        <product_type prod_class_id="k3"> Κουζίνα και Πάγκοι Κουζίνας </product_type>
+        <product_type prod_class_id="k4"> Είδη Σερβιρίσματος </product_type>
+        <product_type prod_class_id="k5"> Χαλιά </product_type>
+        <product_type prod_class_id="k6"> Κρεβάτια και Στρώματα και μαξιλάρια </product_type>
+        <product_type prod_class_id="k7"> Ντουλάπες </product_type>
+        <product_type prod_class_id="k8"> Βρεφικά - Παιδικά Είδη και έπιπλα </product_type>
+        <product_type prod_class_id="k9"> Λευκά είδη </product_type>
+        <product_type prod_class_id="k10"> Φωτισμός </product_type>
+        <product_type prod_class_id="k11"> Γραφεία </product_type>
+        <product_type prod_class_id="k12"> Συρταριέρες </product_type>
+        <product_type prod_class_id="k13"> Τραπέζια </product_type>
+        <product_type prod_class_id="k14"> Είδη Κουζίνας </product_type>
+        <product_type prod_class_id="k15"> Σκαμπό και πάγκοι κουζίνας </product_type>
+        <product_type prod_class_id="k16"> Κομοδίνα </product_type>
+        <product_type prod_class_id="k17"> Καρέκλες </product_type>
+        <product_type prod_class_id="k18"> Διακόσμηση Τοίχου και καθρέφτες </product_type>
+        <product_type prod_class_id="k19"> Διακοσμητικά, κεριά και φυτά </product_type>
+        <product_type prod_class_id="k20"> Κήπος και εξωτερικοί χώροι </product_type>
+        <product_type prod_class_id="k21"> Είδη μπάνιου </product_type>
+        <product_type prod_class_id="k22"> Μπουφέδες </product_type>
+        <product_type prod_class_id="k23"> Εργαλεία και εξαρτήματα </product_type>
+        <product_type prod_class_id="k24"> Χόμπι και ασφάλεια </product_type>
+        <product_type prod_class_id="k25"> Κουρτίνες </product_type>
+        <product_type prod_class_id="k26"> Ριχτάρια </product_type>
+    </product_categories>
+
+    <room_classification value="">
+        <room_class class_id="id_1"> Υπνοδωμάτιο (bedroom) </room_class>
+        <room_class class_id="id_2"> Μπάνιο (bathroom) </room_class>
+        <room_class class_id="id_3"> Δωμάτιο Γραφείου (office) </room_class>
+        <room_class class_id="id_4"> Καθιστικό/Σαλόνι (living_room) </room_class>
+        <room_class class_id="id_5"> Τραπεζαρία (dining_room) </room_class>
+        <room_class class_id="id_6"> Κουζίνα (kitchen) </room_class>
+        <room_class class_id="id_7"> Παιδικό δωμάτιο (kids_room) </room_class>
+        <room_class class_id="id_8"> Εξωτερικοί Χώροι/Κήπος (outdoor) </room_class>
+        <room_class class_id="id_9"> Χώρος Αποθήκευσης (Αποθήκη)/Γκαράζ (storage room) </room_class>
+    </room_classification>
+
+    <special_classification>
+        <special_classes>
+            <campaign spclass_id="id1"></campaign>
+            <outlet spclass_id="id2"></outlet>
+        </special_classes>
+    </special_classification>
+
+    <contact_details>
+        <Headquarters manage_id="main1">
+            <address> -Διεύθυνση: Παπαρηγοπούλου 345, Αθήνα, ΕΛΛΑΔΑ, 100-45 </address>
+            <tel> -Τηλέφωνο: +30 210 12345678 </tel>
+            <email> -Email: xyz@outl.HOME23.com </email>
+        </Headquarters>
+
+        <stores>
+            <shop_store st_id="sid1">
+                <address> -Διεύθυνση: xyzw 99, Αθήνα, ΕΛΛΑΔΑ, 100-54 </address>
+                <tel> -Τηλέφωνο: +30 210 213359778 </tel>
+                <email> -Email: kolonaki@outl.HOME23.com </email>
+            </shop_store>
+
+            <shop_store st_id="sid2">
+                <address> -Διεύθυνση: Ελ. Βενιζέλου 7, Παιανία, ΕΛΛΑΔΑ, 102-33 </address>
+                <tel> -Τηλέφωνο: +30 210 133669785 </tel>
+                <email> -Email: airport@outl.HOME23.com </email>
+            </shop_store>
+
+            <shop_store st_id="sid3">
+                <address> -Διεύθυνση: Τσιμισκί 200, Θεσσαλονίκη, ΕΛΛΑΔΑ, 456-32 </address>
+                <tel> -Τηλέφωνο: +30 2310 999669321 </tel>
+                <email> -Email: Thessaloniki@outl.HOME23.com </email>
+            </shop_store>
+
+            <shop_store st_id="sid4">
+                <address> -Διεύθυνση: Σουλίου 67, Ιωάννινα, ΕΛΛΑΔΑ, 323-11 </address>
+                <tel> -Τηλέφωνο: +30 26510-432990321 </tel>
+                <email> -Email: Ioannina@outl.HOME23.com</email>
+            </shop_store>
+
+            <shop_store st_id="sid5">
+                <address> -Διεύθυνση: Ασκληπιού 119, Λάρισα, ΕΛΛΑΔΑ, 412-22 </address>
+                <tel> -Τηλέφωνο: +30 2410 241111 </tel>
+                <email> -Email: larissa@outl.HOME23.com </email>
+            </shop_store>
+
+            <shop_store st_id="sid6"> 
+                <address> -Διεύθυνση: 28ης Οκτωβρίου 98, Ξάνθη, ΕΛΛΑΔΑ, 761-33 </address>
+                <tel> -Τηλέφωνο: +30 25410 25001 </tel>
+                <email> -Email: xanthi@outl.HOME23.com </email>
+            </shop_store>
+
+            <shop_store st_id="sid7">
+                <address> -Διεύθυνση: Φιλελλήνων 10, Κέρκυρα, ΕΛΛΑΔΑ, 491-31 </address>
+                <tel> -Τηλέφωνο: +30 26610 301158 </tel>
+                <email> -Email: kerkira@outl.HOME23.com </email>
+            </shop_store>
+
+            <shop_store st_id="sid8">
+                <address> -Διεύθυνση: Αριστομένους 115, Καλαμάτα, ΕΛΛΑΔΑ, 241-00 </address>
+                <tel> -Τηλέφωνο: +30 27210-97967 </tel>
+                <email> -Email: kalamata@outl.HOME23.com </email>
+            </shop_store>
+
+            <shop_store st_id="sid9">
+                <address> -Διεύθυνση: Λεωφ. Κνωσού 13, Ηράκλειο, ΕΛΛΑΔΑ, 714-10 </address>
+                <tel> -Τηλέφωνο: +30 2810-211111 </tel>
+                <email> -Email: creta@outl.HOME23.com </email>
+            </shop_store>
+
+        </stores>
+
+    </contact_details>
+
+    <store_hours>
+        <Day day_id="d1">
+            <Timing> 9:00 am - 15:00 pm </Timing>
+        </Day>
+
+        <Day day_id="d2">
+            <Timing> 9:00 am - 15:00 pm </Timing>
+            <Timing> 17:00 pm - 21:00 pm </Timing>
+        </Day>
+
+        <Day day_id="d3">
+            <Timing> 9:00 am - 15:00 pm </Timing>
+        </Day>
+
+        <Day day_id="d4">
+            <Timing> 9:00 am - 15:00 pm </Timing>
+            <Timing> 17:00 pm - 21:00 pm </Timing>
+        </Day>
+
+        <Day day_id="d5">
+            <Timing> 9:00 am - 21:00 pm </Timing>
+        </Day>
+
+        <Day day_id="d6">
+            <Timing> 9:00 am - 18:00 pm </Timing>
+        </Day>
+
+        <Day day_id="d7">
+            <Timing> Κλειστά </Timing>
+        </Day>
+    </store_hours>
+
+    <Services>
+        <shipping_Charges>
+            <charges_Ath_Th shipping_until="4 εργάσιμων ημερών">
+                <shipValue shpunit="4.50" ship_weight_category="0 - 15"> 4.50 για 0 -15 κιλά </shipValue>
+                <shipValue shpunit="9.00" ship_weight_category="15.01 - 35"> 9.00 για 15.01 - 35 κιλά </shipValue>
+                <shipValue shpunit="19.00" ship_weight_category="35.01 - 65"> 19.00 για 35.01 - 65 κιλά </shipValue>
+                <shipValue shpunit="29.00" ship_weight_category="65.01 - 100"> 29.00 για 65.01 - 100 κιλά </shipValue>
+                <shipValue shpunit="49.00" ship_weight_category="100.01 - 200"> 49.00 για 100.01 - 200 κιλά </shipValue>
+                <shipValue shpunit="59.00" ship_weight_category="200.01 - 400"> 59.00 για 200.01 - 400 κιλά </shipValue>
+                <shipValue shpunit="69.00" ship_weight_category=">400.01"> 69.00 για πάνω από 400.01 κιλά </shipValue>
+            </charges_Ath_Th>
+
+            <charges_other_places shipping_until="8 εργάσιμων ημερών">
+                <shipValue shpunit="7.50" ship_weight_category="0 - 15"> 7.50 για 0 -15 κιλά </shipValue>
+                <shipValue shpunit="11.50" ship_weight_category="15.01 - 35"> 11.50 για 15.01 - 35 κιλά </shipValue>
+                <shipValue shpunit="33.00" ship_weight_category="35.01 - 65"> 33.00 για 35.01 - 65 κιλά </shipValue>
+                <shipValue shpunit="58.00" ship_weight_category="65.01 - 100"> 58.00 για 65.01 - 100 κιλά </shipValue>
+                <shipValue shpunit="78.00" ship_weight_category="100.01 - 200"> 78.00 για 100.01 - 200 κιλά </shipValue>
+                <shipValue shpunit="95.00" ship_weight_category="200.01 - 400"> 95.00 για 200.01 - 400 κιλά </shipValue>
+                <shipValue shpunit="105.00" ship_weight_category=">400.01"> 105.00 για πάνω από 400.01 κιλά </shipValue>
+            </charges_other_places>
+        </shipping_Charges>
+
+        <Assembly_Charges>
+            <assValue assunit="10%" ass_category="0.01 - 2500"> 10% της αξίας του προϊόντος που θέλετε να συναρμολογήσετε για προϊόντα αξίας από 0.01 - 2500 ευρώ </assValue>
+            <assValue assunit="δωρεάν" ass_category=">2500"> δωρεάν για προϊόντα αξίας μεγαλύτερης των 2500 ευρώ </assValue>
+        </Assembly_Charges>
+
+        <Interior_Design_Charges forevery="room">
+            <DesValue dessunit="200" Des_category="0-50m2"> 200 ευρώ για για επίπλωση χώρου μικρότερου των 50 τετραγωνικών μέτρων </DesValue>
+            <DesValue dessunit="350" Des_category=">50m2"> 350 ευρώ για επίπλωση χώρου μεγαλύτερου ή ίσου των 50 τετραγωνικών μέτρων </DesValue>
+        </Interior_Design_Charges>
+    </Services>
+
+    <product_list>
+        <product product_id="No.1" productProd_Class_Id="k21 k9 id_2 id2">
+            <store_availability>
+                <quantity store_id="sid3"> HOME23-Θεσσαλονίκη: 10 </quantity>
+                <quantity store_id="sid2"> HOME23-Αθήνα(Αεροδρόμιο): 2 </quantity>
+            </store_availability>
+            <product_descr> Περιγραφή Προϊόντος: Πολύ απαλό και απορροφητικό μπουρνούζι, υφασμένο από 100% βαμβάκι και σε μοναδικές αποχρώσεις που ταιριάζουν και κολακεύουν τον καθένα. Μοναδικής ποιότητας μπουρνούζι με κουκούλα, διαθέσιμο σε 10 αποχρώσεις. </product_descr>
+            <product_characteristics>
+                <manufacturer_country> Χώρα Κατασκευής: Ελλάδα </manufacturer_country>
+                <weight unit_weight="gr"> Βάρος: 480 </weight>
+                <material>Υλικό: (1) 100% Βαμβάκι </material>
+                <color></color>
+                <size> Μέγεθος: L/XL </size>
+                <certified certificate="STANDARD 100"></certified>
+            </product_characteristics>
+            <start_value valunit="19.99" can_return="no">
+                <offer_rate> -Έκπτωση: 33% </offer_rate>
+            </start_value>
+            <Final_value fnlunit="13.50"></Final_value>
+            <product_identification product_name="Μπουρνούζι LERUM" product_code="H28K4741L"></product_identification>
+        </product>
+
+        <product product_id="No.2" productProd_Class_Id="k11 id_3">
+            <store_availability>
+                <quantity store_id="sid3"> HOME23-Θεσσαλονίκη: 3 </quantity>
+                <quantity store_id="sid1"> HOME23-Αθήνα(Κολωνάκι): 2 </quantity>
+                <quantity store_id="sid4"> HOME23-Ιωάννινα: 1 </quantity>
+                <quantity store_id="sid5"> HOME23-Λάρισσα: 3 </quantity>
+                <quantity store_id="sid8"> HOME23-Καλαμάτα: 2 </quantity>
+                <quantity store_id="sid9"> HOME23-Κρήτη: 2 </quantity>
+            </store_availability>
+            <product_descr> Περιγραφή Προϊόντος: Η σειρά εργασιακών γραφείων DERUP, είναι ο απόλυτος συνδυασμός απαλών φορμών, φυσικών υλικών και χρωμάτων, για ένα φιλικό προς τον χρήστη εργασιακό περιβάλλον. Καλύπτει άψογα πολλές από τις ανάγκες των χώρων εργασίας, αναδεικνύοντας τον χώρο με τον αυθεντικό αλλά ταυτόχρονα και εντυπωσιακό σχεδιασμό της. </product_descr>
+            <product_characteristics>
+                <manufacturer_country> Χώρα Κατασκευής: Ελλάδα </manufacturer_country>
+                <weight> Βάρος: 15 </weight>
+                <material>Υλικό: (1) Μελαμίνη </material>
+                <material> (2) Μοριοσανίδα </material>
+                <material> (3) HDF </material>
+                <material> (4) Πλαστικό </material>
+                <included quantity="1"> Περιλαμβάνει: (1) Συρτάρι </included>
+                <included quantity="1"> Περιλαμβάνει: (2) Φρένο Συρταριού </included>
+                <color></color>
+                <Dimensions assembled="true">
+                    <height> -Ύψος: 75 </height>
+                    <length> -Μήκος: 100 </length>
+                    <width> -Πλάτος: 40 </width>
+                </Dimensions>
+                <Dimensions assembled="false">
+                    <height> -Ύψος: 9 </height>
+                    <length> -Μήκος: 106 </length>
+                    <width> -Πλάτος: 42 </width>
+                </Dimensions>
+                <certified certificate="FSC Mix"></certified>
+            </product_characteristics>
+            <start_value valunit="40.00" option_of_assembly="yes" can_reserved="yes"></start_value>
+            <Final_value fnlunit="40.00"></Final_value>
+            <product_identification product_name="Γραφείο DERUP 40x100 λευκό" product_code="K33J4755J"></product_identification>
+        </product>
+
+        <product product_id="No.3" productProd_Class_Id="k11 k2 id_3 id_9 id1">
+            <store_availability>
+                <quantity store_id="sid3"> HOME23-Θεσσαλονίκη: 5 </quantity>
+                <quantity store_id="sid1"> HOME23-Αθήνα(Κολωνάκι): 3 </quantity>
+                <quantity store_id="sid2"> HOME23-Αθήνα(Αεροδρόμιο): 4 </quantity>
+                <quantity store_id="sid4"> HOME23-Ιωάννινα: 2 </quantity>
+                <quantity store_id="sid5"> HOME23-Λάρισσα: 2 </quantity>
+                <quantity store_id="sid6"> HOME23-Ξάνθη: 1 </quantity>
+                <quantity store_id="sid7"> HOME23-Κέρκυρα: 1 </quantity>
+            </store_availability>
+            <product_descr> Περιγραφή Προϊόντος: Βιβλιοθήκη Liberta Urban, με ράφια μοριοσανίδας σε φυσική απόχρωση και μεταλλικό σκελετό σε μαύρη απόχρωση. Διαστάσεις (MxY): 105x140cm </product_descr>
+            <product_characteristics>
+                <manufacturer_country> Χώρα Κατασκευής: Ιταλία </manufacturer_country>
+                <weight> Βάρος: 34.68 </weight>
+                <material>Υλικό: (1) Μελαμίνη </material>
+                <material> (2) Μοριοσανίδα </material>
+                <material> (3) Μέταλλο </material>
+                <included quantity="4"> Περιλαμβάνει: (1) Ράφια </included>
+                <color></color>
+                <Dimensions assembled="true">
+                    <height> -Ύψος: 140 </height>
+                    <length> -Μήκος: 105 </length>
+                    <width> -Πλάτος: 32 </width>
+                </Dimensions>
+                <certified certificate="FSC Mix"></certified>
+            </product_characteristics>
+            <start_value valunit="199.00" can_reserved="yes" is_assembled="yes">
+                <offer_rate> -Έκπτωση: 20% </offer_rate>
+            </start_value>
+            <Final_value fnlunit="159.20">
+                <accept_doses>
+                    <num_doses> -Αριθμός Δόσεων: 10 </num_doses>
+                    <ammount_dose> -Ποσό Δόσης: 15.92 </ammount_dose>
+                    <With_credit_card></With_credit_card>
+                    <Interest_free></Interest_free>
+                </accept_doses>
+            </Final_value>
+            <product_identification product_name="Βιβλιοθήκη Liberta Urban 105x140cm Φυσικό με Μαύρο Σκελετό" product_code="K4376RT9L"></product_identification>
+        </product>
+
+        <product product_id="No.4" productProd_Class_Id="k3 k14 id_6 id1">
+            <store_availability>
+                <quantity store_id="sid3"> HOME23-Θεσσαλονίκη: 2 </quantity>
+                <quantity store_id="sid4"> HOME23-Ιωάννινα: 2 </quantity>
+                <quantity store_id="sid5"> HOME23-Λάρισσα: 3 </quantity>
+                <quantity store_id="sid6"> HOME23-Ξάνθη: 2 </quantity>
+                <quantity store_id="sid7"> HOME23-Κέρκυρα: 2 </quantity>
+                <quantity store_id="sid8"> HOME23-Καλαμάτα: 1 </quantity>
+                <quantity store_id="sid9"> HOME23-Κρήτη: 4 </quantity>
+            </store_availability>
+            <product_descr> Περιγραφή Προϊόντος: Έτοιμη κουζίνα lemwood Randi, για εντοιχιζόμενες συσκευές, με θέση για απορροφητήρα, φούρνο, εστίες και πλυντήριο πιάτων. Σε μοντέρνο design, με σκελετό από μελαμίνη, προσόψεις σε απόχρωση σόνομα, συνολική διάσταση (ΜxΠxY): 300x60x217cm. Πάγκος κουζίνας, από φορμάικα και ντουλάπια σε γκρι απόχρωση. </product_descr>
+            <product_characteristics>
+                <manufacturer_country> Χώρα Κατασκευής: Ιταλία </manufacturer_country>
+                <weight> Βάρος: 291.50 </weight>
+                <material> Υλικό: (1) Μελαμίνη </material>
+                <material> Υλικό: (2) MDF </material>
+                <included quantity="8"> Περιλαμβάνει: (1) Ντουλάπια </included>
+                <included quantity="2"> Περιλαμβάνει: (1) Ράφια </included>
+                <included quantity="2"> Περιλαμβάνει: (1) Συρτάρια </included>
+                <not_included no_incl="1"> ΔΕΝ Περιλαμβάνει: (1) ηλεκτρικές συσκευές </not_included>
+                <not_included no_incl="2"> ΔΕΝ Περιλαμβάνει: (2) νεροχύτη </not_included>
+                <not_included no_incl="3"> ΔΕΝ Περιλαμβάνει: (3) μείκτη/μπαταρία βρύσης </not_included>
+                <not_included no_incl="4"> ΔΕΝ Περιλαμβάνει: (4) διακόσμηση </not_included>
+                <color in="skeleto"></color>
+                <color in="bench"></color>
+                <color in="facade"></color>
+                <Dimensions assembled="true">
+                    <height> -Ύψος: 217 </height>
+                    <length> -Μήκος: 300 </length>
+                    <width> -Πλάτος: 60 </width>
+                    <depth for="baseCabinet"> -Βάθος: 54.70 </depth>
+                    <depth for="wallCabinet"> -Βάθος: 52.40 </depth>
+                </Dimensions>
+                <certified certificate="FSC Mix"></certified>
+            </product_characteristics>
+            <start_value valunit="1500.00" is_assembled="no" option_of_assembly="yes">
+                <offer_rate> -Έκπτωση: 35% </offer_rate>
+            </start_value>
+            <Final_value fnlunit="975.00">
+                <accept_doses>
+                    <num_doses> -Αριθμός Δόσεων: 12 </num_doses>
+                    <ammount_dose> -Ποσό Δόσης: 81.25 </ammount_dose>
+                    <With_credit_card></With_credit_card>
+                    <Interest_free></Interest_free>
+                </accept_doses>
+            </Final_value>
+            <product_identification product_name="Έτοιμη Κουζίνα lemwood Randi για Εντοιχιζόμενες Συσκευές 300x60x217cm Σόνομα/Γκρι" product_code="RP1LK6XD1"></product_identification>
+        </product>
+
+        <product product_id="No.5" productProd_Class_Id="k9 k25 id_1 id_3 id_4 id_5 id_6 id_7">
+            <store_availability>
+                <quantity store_id="sid3"> HOME23-Θεσσαλονίκη: 16 </quantity>
+                <quantity store_id="sid2"> HOME23-Αθήνα(Αεροδρόμιο): 12 </quantity>
+                <quantity store_id="sid4"> HOME23-Ιωάννινα: 8 </quantity>
+            </store_availability>
+            <product_descr> Περιγραφή Προϊόντος: Κουρτίνα Pierre Cardin Alcadara, με τρουκς, σε γκρι απόχρωση, διαστάσεις (ΠxY): 140x270cm </product_descr>
+            <product_characteristics>
+                <manufacturer_country> Χώρα Κατασκευής: Ιταλία </manufacturer_country>
+                <weight> Βάρος: 0.95 </weight>
+                <material> Υλικό: (1) 100% Πολυεστέρας </material>
+                <included quantity="8"> Περιλαμβάνει: (1) Τρουκς </included>
+                <included> Περιλαμβάνει: (2) Στρίφωμα </included>
+                <color> 
+                    <also_available_color also_color="1"> -Διατίθεται επιπλέον και σε χρώμα: Γκρι Σκούρο </also_available_color>
+                    <also_available_color also_color="2"> -Διατίθεται επιπλέον και σε χρώμα: Μπεζ </also_available_color>
+                    <also_available_color also_color="3"> -Διατίθεται επιπλέον και σε χρώμα: Ροζ Σκούρο </also_available_color>
+                </color>
+                <Dimensions assembled="true">
+                    <length> -Μήκος: 270 </length>
+                    <width> -Πλάτος: 140 </width>
+                </Dimensions>
+                <certified certificate="FSC Mix"></certified>
+            </product_characteristics>
+            <start_value valunit="52.00" can_reserved="yes" can_return="yes"></start_value>
+            <Final_value fnlunit="52.00">
+                <accept_doses>
+                    <num_doses> -Αριθμός Δόσεων: 3 </num_doses>
+                    <ammount_dose> -Ποσό Δόσης: 17.33 </ammount_dose>
+                    <With_credit_card></With_credit_card>
+                    <Interest_free></Interest_free>
+                </accept_doses>
+            </Final_value>
+            <product_identification product_name="Κουρτίνα Pierre Cardin Alcadara 140x270cm Γκρι" product_code="CURT6542W"></product_identification>
+        </product>
+
+        <product product_id="No.6" productProd_Class_Id="k9 k26 id_1 id_7 id2">
+            <store_availability>
+                <quantity store_id="sid3"> HOME23-Θεσσαλονίκη: 4 </quantity>
+                <quantity store_id="sid8"> HOME23-Καλαμάτα: 1 </quantity>
+            </store_availability>
+            <product_descr> Περιγραφή Προϊόντος: Κουβέρτα καλοκαιρινή πικέ, μονή, σε μπεζ απόχρωση, με διαστάσεις (ΜxΠ): 240x160cm. Το εξωτερικό ύφασμα είναι από 100% βιώσιμα καλλιεργημένο βαμβάκι, ένα φυσικό και ανθεκτικό υλικό που γίνεται πιο απαλό με κάθε πλύση. Μέγιστη συρρίκνωση 4%. Πλύσιμο στο πλυντήριο ρούχων (μικρότερο ή ίσο των 40 βαθμών κελσίου, κανονικό πρόγραμμα) </product_descr>
+            <product_characteristics>
+                <manufacturer_country> Χώρα Κατασκευής: Ελλάδα </manufacturer_country>
+                <weight> Βάρος: 1.25 </weight>
+                <material> Υλικό: (1) 100% Βαμβάκι </material>
+                <color> 
+                    <also_available_color also_color="1"> -Διατίθεται επιπλέον και σε χρώμα: Σιελ </also_available_color>
+                    <also_available_color also_color="2"> -Διατίθεται επιπλέον και σε χρώμα: Πράσινο </also_available_color>
+                    <also_available_color also_color="3"> -Διατίθεται επιπλέον και σε χρώμα: Ροζ </also_available_color>
+                </color>
+                <Dimensions assembled="true">
+                    <length> -Μήκος: 240 </length>
+                    <width> -Πλάτος: 160 </width>
+                </Dimensions>
+            </product_characteristics>
+            <start_value valunit="37.00" can_reserved="yes" can_return="yes"> 
+                <offer_rate> -Έκπτωση: 46% </offer_rate>
+            </start_value>
+            <Final_value fnlunit="20.00"></Final_value>
+            <product_identification product_name="Κουβέρτα Πικέ Waffle 240x160cm Μπεζ" product_code="COVR154KY"></product_identification>
+        </product>
+
+        <product product_id="No.7" productProd_Class_Id="k1 k17 id_5 id_6">
+            <store_availability>
+                <quantity store_id="sid3"> HOME23-Θεσσαλονίκη: 12 </quantity>
+                <quantity store_id="sid2"> HOME23-Αθήνα(Αεροδρόμιο): 15 </quantity>
+                <quantity store_id="sid6"> HOME23-Ξάνθη: 7 </quantity>
+                <quantity store_id="sid9"> HOME23-Κρήτη: 8 </quantity>
+            </store_availability>
+            <product_descr> Περιγραφή Προϊόντος: Καρέκλα τραπεζαρίας Life, με μοντέρνο design, με μεταλλικό σκελετό και κάθισμα σε καφέ απόχρωση, διαστάσεις (ΜxΠxY): 52x44x86cm </product_descr>
+            <product_characteristics>
+                <manufacturer_country> Χώρα Κατασκευής: Τουρκία </manufacturer_country>
+                <weight> Βάρος: 4.20 </weight>
+                <material> Υλικό: (1) Μέταλλο </material>
+                <material> Υλικό: (2) Πολυεστέρας </material>
+                <material> Υλικό: (3) Ξύλο </material>
+                <color> 
+                    <also_available_color also_color="1"> -Διατίθεται επιπλέον και σε χρώμα: Γκρι </also_available_color>
+                </color>
+                <Dimensions assembled="true">
+                    <length> -Μήκος: 52 </length>
+                    <width> -Πλάτος: 86 </width>
+                </Dimensions>
+            </product_characteristics>
+            <start_value valunit="59.00" can_reserved="yes" is_assembled="yes" can_return="yes"></start_value>
+            <Final_value fnlunit="59.00"> 
+                <accept_doses>
+                    <num_doses> -Αριθμός Δόσεων: 3 </num_doses>
+                    <ammount_dose> -Ποσό Δόσης: 19.67 </ammount_dose>
+                    <With_credit_card></With_credit_card>
+                    <Interest_free></Interest_free>
+                </accept_doses>
+            </Final_value>
+            <product_identification product_name="Καρέκλα Τραπεζαρίας Life Καφέ" product_code="CHAR083NH"></product_identification>
+        </product>
+
+        <product product_id="No.8" productProd_Class_Id="k1 k17 id_5 id_6">
+            <store_availability>
+                <quantity store_id="sid1"> HOME23-Αθήνα(Κολωνάκι): 4 </quantity>
+                <quantity store_id="sid2"> HOME23-Αθήνα(Αεροδρόμιο): 6 </quantity>
+            </store_availability>
+            <product_descr> Περιγραφή Προϊόντος: Καρέκλα τραπεζαρίας Oval. Χρώμα, άνεση, και ιδιαίτερο σχέδιο. Τολμήστε να κάνετε mix στην τραπεζαρία σας με τα υπόλοιπα χρώματα της σειράς καρεκλών oval. </product_descr>
+            <product_characteristics>
+                <manufacturer_country> Χώρα Κατασκευής: Κίνα </manufacturer_country>
+                <weight> Βάρος: 110 </weight>
+                <material> Υλικό: (1) Δερματίνη </material>
+                <material> Υλικό: (2) Αφρολέξ </material>
+                <material> Υλικό: (3) MDF </material>
+                <material> Υλικό: (4) Μέταλλο </material>
+                <material> Υλικό: (5) PU (πολυουρεθάνη) </material>
+                <color></color>
+                <Dimensions assembled="true">
+                    <height> -Ύψος: 98 </height>
+                    <width> -Πλάτος: 43 </width>
+                    <depth for="seat"> -Βάθος: 51 </depth>
+                </Dimensions>
+                <Dimensions assembled="false">
+                    <height> -Ύψος: 5 </height>
+                    <length> -Μήκος: 118 </length>
+                    <width> -Πλάτος: 50 </width>
+                </Dimensions>
+            </product_characteristics>
+            <start_value valunit="27.50" can_reserved="yes" is_assembled="no" option_of_assembly="yes" can_return="no"></start_value>
+            <Final_value fnlunit="27.50"></Final_value>
+            <product_identification product_name="Καρέκλα τραπεζαρίας TOREBY Oval μαύρη" product_code="CHAR767DF"></product_identification>
+        </product>
+
+        <product product_id="No.9" productProd_Class_Id="k18 k21 id_1 id_2 id_3 id_4 id_5 id1">
+            <store_availability>
+                <quantity store_id="sid1"> HOME23-Αθήνα(Κολωνάκι): 2 </quantity>
+                <quantity store_id="sid9"> HOME23-Κρήτη: 1 </quantity>
+            </store_availability>
+            <product_descr> Περιγραφή Προϊόντος: Καθρέπτης τοίχου Frame, με ξύλινο πλαίσιο σε μαύρη απόχρωση, με διαστάσεις (ΜxY): 60x80cm. Frame καθρέφτης, minimal για να πλαισιώσει κάθε γωνιά του σπιτιού σας. </product_descr>
+            <product_characteristics>
+                <manufacturer_country> Χώρα Κατασκευής: Κίνα </manufacturer_country>
+                <weight> Βάρος: 4.25 </weight>
+                <material> Υλικό: (1) MDF </material>
+                <material> Υλικό: (2) Γυαλί </material>
+                <color></color>
+                <Dimensions assembled="true">
+                    <height> -Ύψος: 80 </height>
+                    <length> -Μήκος: 60 </length>
+                    <width> -Πλάτος: 3 </width>
+                </Dimensions>
+            </product_characteristics>
+            <start_value valunit="49.00" can_reserved="yes" is_assembled="yes" can_return="no"> 
+                <offer_rate> -Έκπτωση: 40% </offer_rate>
+            </start_value>
+            <Final_value fnlunit="29.40"></Final_value>
+            <product_identification product_name="Καθρέπτης Τοίχου Frame Μαύρος" product_code="FD104GBL0"></product_identification>
+        </product>
+
+        <product product_id="No.10" productProd_Class_Id="k2 k7 id_9 id1">
+            <store_availability>
+                <quantity store_id="sid3"> HOME23-Θεσσαλονίκη: 5 </quantity>
+                <quantity store_id="sid1"> HOME23-Αθήνα(Κολωνάκι): 8 </quantity>
+                <quantity store_id="sid4"> HOME23-Ιωάννινα: 2 </quantity>
+                <quantity store_id="sid5"> HOME23-Λάρισσα: 3 </quantity>
+            </store_availability>
+            <product_descr> Περιγραφή Προϊόντος: Παπουτσοθήκη BAGENKOP Huge σε δρυς με διαστάσεις Π65xY100xB26cm. Διαθέτει 3 πόρτες για να αποθηκεύεις τα παπούτσια σου. </product_descr>
+            <product_characteristics>
+                <manufacturer_country> Χώρα Κατασκευής: Ελλάδα </manufacturer_country>
+                <weight> Βάρος: 21 </weight>
+                <material> Υλικό: (1) HDF </material>
+                <material> Υλικό: (2) Μελαμίνη </material>
+                <material> Υλικό: (3) Μοριοσανίδα </material>
+                <material> Υλικό: (4) Πλαστικό </material>
+                <included quantity="3"> Περιλαμβάνει: (1) Λαβή </included>
+                <included quantity="3"> Περιλαμβάνει: (2) Πορτές </included> 
+                <color></color>
+                <Dimensions assembled="true">
+                    <height> -Ύψος: 100 </height>
+                    <width> -Πλάτος: 65 </width>
+                    <depth> -Βάθος: 26 </depth>
+                </Dimensions>
+                <Dimensions assembled="false">
+                    <height> -Ύψος: 13 </height>
+                    <length> -Μήκος: 105 </length>
+                    <width> -Πλάτος: 35 </width>
+                </Dimensions>
+                <certified certificate="FSC Mix"></certified>
+            </product_characteristics>
+            <start_value valunit="89.00" can_reserved="no" is_assembled="no" option_of_assembly="yes"> 
+                <offer_rate> -Έκπτωση: 10% </offer_rate>
+            </start_value>
+            <Final_value fnlunit="80.10"> 
+                <accept_doses>
+                    <num_doses> -Αριθμός Δόσεων: 6 </num_doses>
+                    <ammount_dose> -Ποσό Δόσης: 13.35 </ammount_dose>
+                    <With_credit_card></With_credit_card>
+                    <Interest_free></Interest_free>
+                </accept_doses>
+            </Final_value>
+            <product_identification product_name="Παπουτσοθήκη BAGENKOP δρυς" product_code="7MFJ90511"></product_identification>
+        </product>
+    </product_list>    
+
+</Epipla_Diakosmisi_AE>

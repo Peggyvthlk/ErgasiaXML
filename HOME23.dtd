@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT Epipla_Diakosmisi_AE (name, stores_list, product_categories, room_classification, special_classification, contact_details, store_hours, Services, product_list)>
+<!ATTLIST Epipla_Diakosmisi_AE number_of_products CDATA #REQUIRED>
+<!ATTLIST Epipla_Diakosmisi_AE Year_opened CDATA #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+
+<!ELEMENT stores_list (store+)>
+<!ELEMENT store EMPTY>
+<!ATTLIST store strid ID #REQUIRED>
+<!ATTLIST store name CDATA #REQUIRED>
+
+<!ELEMENT product_categories (product_type+)>
+<!ELEMENT product_type (#PCDATA)>
+<!ATTLIST product_type prod_class_id ID #REQUIRED>
+
+<!ELEMENT room_classification (room_class+)>
+<!ELEMENT room_class (#PCDATA)>
+<!ATTLIST room_class class_id ID #REQUIRED>
+<!ATTLIST room_classification value CDATA #REQUIRED>
+
+<!ELEMENT special_classification (special_classes)>
+<!ELEMENT special_classes (campaign, outlet)>
+<!ELEMENT campaign EMPTY>
+<!ELEMENT outlet EMPTY>
+<!ATTLIST campaign spclass_id ID #REQUIRED>
+<!ATTLIST outlet spclass_id ID #REQUIRED>
+
+<!ELEMENT contact_details (Headquarters, stores)>
+<!ELEMENT Headquarters (address, tel*, email*)>
+<!ATTLIST Headquarters manage_id CDATA #REQUIRED>
+<!ELEMENT address ANY>
+<!ELEMENT tel (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+
+<!ELEMENT stores (shop_store+)>
+<!ELEMENT shop_store (address, tel*, email*)>
+<!ATTLIST shop_store st_id ID #REQUIRED>
+
+<!ELEMENT store_hours (Day+)>
+<!ELEMENT Day (Timing*)>
+<!ATTLIST Day day_id ID #REQUIRED>
+<!ELEMENT Timing (#PCDATA)>
+
+<!ELEMENT Services (shipping_Charges, Assembly_Charges, Interior_Design_Charges?)>
+<!ELEMENT shipping_Charges (charges_Ath_Th, charges_other_places)>
+<!ELEMENT charges_Ath_Th (shipValue+)>
+<!ELEMENT shipValue (#PCDATA)>
+<!ELEMENT charges_other_places (shipValue+)>
+<!ATTLIST charges_Ath_Th shipping_until CDATA #REQUIRED>
+<!ATTLIST charges_other_places shipping_until CDATA #REQUIRED>
+<!ATTLIST shipValue ship_weight_category CDATA #REQUIRED>
+<!ATTLIST shipValue shpunit CDATA "euro">
+
+<!ELEMENT Assembly_Charges (assValue*)>
+<!ELEMENT assValue (#PCDATA)>
+<!ATTLIST assValue assunit CDATA "euro">
+<!ATTLIST assValue ass_category CDATA #REQUIRED>
+
+<!ELEMENT Interior_Design_Charges (DesValue*)>
+<!ELEMENT DesValue (#PCDATA)>
+<!ATTLIST DesValue dessunit CDATA "euro">
+<!ATTLIST Interior_Design_Charges forevery CDATA "room">
+<!ATTLIST DesValue Des_category CDATA #REQUIRED> 
+
+<!ELEMENT product_list (product*)>
+<!ELEMENT product (product_name, product_code, store_availability, product_descr, product_characteristics, start_value, Final_value)>
+<!ATTLIST product product_id ID #REQUIRED>
+<!ATTLIST product productProd_Class_Id IDREFS #REQUIRED>
+<!ELEMENT product_name (#PCDATA)>
+<!ELEMENT product_code (#PCDATA)>
+
+<!ELEMENT store_availability (quantity*)> 
+<!ELEMENT quantity (#PCDATA)> 
+<!ATTLIST quantity store_id IDREFS #REQUIRED>
+<!ELEMENT product_descr (#PCDATA)>
+
+<!ELEMENT product_characteristics (manufacturer_country?, weight+, material*, included*, not_included*, color*, (size|Dimensions)+, certified?)>
+<!ELEMENT manufacturer_country (#PCDATA)>
+
+<!ELEMENT weight (#PCDATA)>
+<!ATTLIST weight unit_weight CDATA "kg">
+
+<!ELEMENT material (#PCDATA)>
+<!ATTLIST material mtr CDATA #IMPLIED>
+
+<!ELEMENT included (#PCDATA)>
+<!ATTLIST included quantity CDATA #IMPLIED>
+
+<!ELEMENT not_included (#PCDATA)>
+<!ATTLIST not_included no_incl CDATA #REQUIRED>
+
+<!ELEMENT color (also_available_color*)>
+<!ELEMENT also_available_color (#PCDATA)>
+<!ATTLIST color in CDATA #IMPLIED>
+<!ATTLIST also_available_color also_color CDATA #REQUIRED>
+
+<!ELEMENT size (#PCDATA)>
+<!ELEMENT Dimensions (height*, length*, width, depth*)>
+<!ATTLIST Dimensions assembled (true|false) #REQUIRED>
+<!ELEMENT height (#PCDATA)>
+<!ATTLIST height unit_height CDATA "cm">
+<!ELEMENT length (#PCDATA)>
+<!ATTLIST length unit_length CDATA "cm">
+<!ELEMENT width (#PCDATA)>
+<!ATTLIST width unit_width CDATA "cm">
+<!ELEMENT depth (#PCDATA)>
+<!ATTLIST depth unit_depth CDATA "cm">
+<!ATTLIST depth for CDATA #IMPLIED>
+<!ELEMENT certified EMPTY>
+<!ATTLIST certified certificate CDATA #REQUIRED>
+
+<!ELEMENT start_value (offer_rate?)>
+<!ATTLIST start_value valunit CDATA "euro">
+<!ATTLIST start_value can_return (yes|no) #IMPLIED>
+<!ATTLIST start_value can_reserved (yes|no) #IMPLIED>
+<!ATTLIST start_value option_of_assembly (yes|no) #IMPLIED>
+<!ATTLIST start_value is_assembled (yes|no) #IMPLIED>
+<!ELEMENT offer_rate (#PCDATA)>
+
+<!ELEMENT Final_value (accept_doses?)>
+<!ATTLIST Final_value fnlunit CDATA "euro">
+<!ELEMENT accept_doses (num_doses, ammount_dose, With_credit_card?, Interest_free?)>
+<!ELEMENT num_doses (#PCDATA)>
+<!ELEMENT ammount_dose (#PCDATA)>
+<!ELEMENT With_credit_card EMPTY>
+<!ELEMENT Interest_free EMPTY>
